@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EntryManagementSystem_browser.jnlp">
+  <information>
+    <title>EntryManagementSystem</title>
+    <vendor>sohai</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EntryManagementSystem.jar" size="16020" download="eager" />
+    <jar href="lib\activation-1.1.0.jar" size="55932" download="eager" />
+    <jar href="lib\derby.jar" size="2766479" download="eager" />
+    <jar href="lib\derbyclient.jar" size="576624" download="eager" />
+    <jar href="lib\derbynet.jar" size="248898" download="eager" />
+    <jar href="lib\mail.jar" size="507849" download="eager" />
+    <jar href="lib\smtp-1.4.5.jar" size="52787" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="entrymanagementsystem.Screeen"  name="EntryManagementSystem" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
